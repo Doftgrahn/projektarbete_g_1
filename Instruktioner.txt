@@ -1,4 +1,7 @@
-/* Färgpalett
+Lägg till fonts och färger här!
+
+
+/* Färgpalett 
 färgpalett:
 #1a1919
 #be000e
