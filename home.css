@@ -26,8 +26,19 @@ body {
 .logo-container img {
   width: 100%;
   height: 740px;
-  margin: 5px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+/* Parallax--- Ta bort?
+background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+*/
+
+
 
 .logo a {
   display: inline-block;
@@ -92,6 +103,7 @@ body {
   list-style-type: none;
 }
 
+
 /* Flex container*/
 .flex-container {
   display: flex;
@@ -105,23 +117,60 @@ body {
 }
 
 .flex1 {
-  height: 600px;
+  height: 300px;
   position: relative;
 }
 
 .flex2,
 .flex3 {
   width: 50%;
-  height: 300px;
+  height: 150px;
   position: relative;
 }
 
 .flex-container img {
-  object-fit: cover;
-  /*object-position: center center;*/
+  object-fit:  cover;
+  /*object-position: center center; */
   height: 100%;
   width: 100%;
 }
+
+
+/*Slut på flex, början på  kända personer som använder */
+
+.contactus-container h2  {
+  color:gray;
+  text-align: center;
+  font-size: 2vw;
+
+}
+
+/*grid börjar */
+
+.stories-grid{
+  /*width:100%;*/
+  height:120vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 33%;
+
+}
+
+.gridall {
+/*width:100%;*/
+border: 1px solid black;
+background-color: #f6f4f2;
+object-fit: contain;
+}
+.gridall img {
+  width:100%;
+  object-fit: contain;
+}
+
+
+
+
+
 
 /* footer*/
 footer {
