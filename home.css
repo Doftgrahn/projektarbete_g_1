@@ -15,6 +15,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1a1919;
+  color: #f6f4f2;
 }
 
 img {
@@ -64,14 +65,14 @@ background-attachment: fixed;
 
 .logo-container button {
   background: none;
-  opacity: 0.7;
+  opacity: 0.9;
   font-size: 2vw;
   text-decoration: none;
   border: none;
   display: inline-block;
   padding: 14px 22px;
   position: absolute;
-  top: 66%;
+  top: 80%;
   left: 40%;
   cursor: pointer;
   color: #1a1919;
@@ -79,9 +80,13 @@ background-attachment: fixed;
 }
 
 .logo-container button:hover {
-  background-color: #f6f4f2;
+  color: #f6f4f2;
   background: none;
   display: inline-block;
+}
+
+.logo-container button:visited {
+  color: #f6f4f2;
 }
 
 /*-- Början på introduktion -grid */
@@ -99,12 +104,13 @@ background-attachment: fixed;
   font-size: 5vw;
   display: inline-block;
   position: relative;
-
 }
 
 .main-container p:last-child {
   font size: 6vw;
+  display: inline-block;
   position: relative;
+  bottom: 90px;
 }
 
 /* Flex container*/
@@ -157,15 +163,27 @@ background-attachment: fixed;
 .contactus-container h2 {
   color: #f6f4f2;
   font-size: 4vw;
+  position: relative;
+}
+
+.contactus-container h3 a {
+  text-decoration: none;
+}
+
+.contactus-container h3 a:hover {
+  background-color: #011e2e;
+  text-decoration: none;
+  color: #f6f4f2;
 }
 
 /*grid börjar */
 .stories-grid {
-  /*width:100%;*/
+  width:100%;
   height: 20vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /*grid-template-rows: 50%;*/
+  position: relative;
 }
 
 .gridall {
@@ -175,6 +193,8 @@ background-attachment: fixed;
   padding: 0;
   background-color: #f6f4f2;
   object-fit: contain;
+  position: relative;
+
 }
 
 .gridall img {
@@ -182,9 +202,35 @@ background-attachment: fixed;
   object-fit: contain;
 }
 
-/* footer*/
-footer {
-  height: 50px;
-  position: relative;
+.overlay {
+  position: absolute;
   bottom: 0;
+  left:0;
+  right:0;
+  background-color: #f6f4f2;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+.grid1:hover .overlay {
+  transform: scale(1);
+}
+.grid2:hover .overlay {
+  transform: scale(1);
+}
+.grid3:hover .overlay {
+  transform: scale(1);
+}
+
+.text {
+  color: #011e2e;
+  font-size: 20px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
