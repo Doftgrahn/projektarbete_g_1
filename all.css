@@ -15,7 +15,7 @@ html {
   }
   body,html{
       padding:0;
-      margin:0;
+      margin:10px;
     }
     html{
       background:Gainsboro ;
@@ -59,7 +59,7 @@ html {
       border:1px solid transparent;
     }
     #main-header nav ul li a:hover{
-      background:pink;
+      background:#365462;
       border:1px solid#e1e1ea;
       border-radius:5px;
     }
@@ -75,22 +75,24 @@ html {
 
     
     .container{
-      width:960px;
+      min-width:480px;
       margin:0 auto;
     }
     .card{
       background:#ffffff;
       padding:15px;
       border:1px solid#e1e1e1;
-      margin-top:20px;
+      margin: 20 10 0 10;
+      
     }
     
     #footer-links{
       margin-top:40px;
       background:#ffffff;
-      border-top:1px solid pink;
-      border-bottom:1px solid pink;
+      border-top:1px solid #e1e1e1;
+      border-bottom:1px solid #e1e1e1;
       padding:20px 0;
+      min-width: 480px;
     }
     #footer-links.column{
       width:50%;
@@ -114,10 +116,7 @@ html {
       color:#111111;
       text-decoration:none;
     }
-    /*.social-link{
-      background:url(images/twitter.png) left center no-repeat;
-    padding-left:24px;
-    }*/
+    
     body>footer{
      padding:19px 0;
       
@@ -136,10 +135,7 @@ html {
       float:left;
       margin-right:10px;
     }
-    /*body > footer ul li::after{
-      content:"-";
-      margin-left:10px;
-    }*/
+    
     body > footer ul li ::last-child::after{
       content:"";
     }  
@@ -159,15 +155,15 @@ html {
 	display: -ms-flex;
   display: flex;
   
-	-webkit-flex-flow: row wrap;
-	-moz-flex-flow: row wrap;
-	-ms-flex-flow: row wrap;
+	webkit-flex-flow: row wrap;
+	moz-flex-flow: row wrap;
+	ms-flex-flow: row wrap;
   flex-flow: row wrap;
   
-	-webkit-justify-content: center;
-	-moz-justify-content: center;
-	-ms-justify-content: center;
-	-webkit-justify-content: center;
+	webkit-justify-content: center;
+	moz-justify-content: center;
+	ms-justify-content: center;
+	webkit-justify-content: center;
 }
 
 .grid > li {
@@ -183,7 +179,7 @@ html {
 
 
 .grid-content {
-	border: 3px solid #47a3da;
+	border: 3px solid #365462;
 	position: relative;
 }
 
@@ -233,6 +229,6 @@ html {
 
 @media screen and (max-width: 46.125em) {
 	.grid > li {
-		width: 100%;
+		width: 75%;
 	}
 }
