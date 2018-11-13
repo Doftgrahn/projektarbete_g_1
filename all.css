@@ -19,7 +19,7 @@ html {
     }
     html{
       background:Gainsboro ;
-      font-family:"Helvetica Neue",Helvetica ,Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       
     }
     a{
@@ -145,8 +145,8 @@ html {
 
 
 .product-image{
-  width: 250px;
-  height: 250px;
+  width: 370px;
+  height: 370px;
 }
 
 .grid {
@@ -186,7 +186,7 @@ html {
 
 /* The item with the images will have perspective */
 .cbp-pgitem {
-	width: 100%;
+	width: 0;
 	position: relative;
 	padding: 2em;
 	-webkit-perspective: 1400px;
