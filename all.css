@@ -18,16 +18,16 @@ html {
       margin:10px;
     }
     html{
-      background:Gainsboro ;
+      background:#e1e1e1 ;
       font-family: 'Roboto', sans-serif;
       
     }
     a{
-      color: #f7a6a6;
+      color:#00ffff;
     }
     
     #main-header{
-      background:white;
+      background:#365462;
       padding:5px;
       position:fixed;
       top:0;
@@ -180,7 +180,8 @@ html {
 
 .grid-content {
 	border: 3px solid #365462;
-	position: relative;
+  position: relative;
+  background-color: #365462
 }
 
 
@@ -219,6 +220,66 @@ html {
 	font-weight: 700;
 	text-align: right;
 }
+
+
+              .tooltip {
+                  position: relative;
+                  display: inline-block;
+                  border-bottom: 1px dotted black;
+              }
+              
+              .tooltip .tooltiptext {
+                  visibility: hidden;
+                  width: 120px;
+                  background-color: black;
+                  color: #fff;
+                  text-align: center;
+                  border-radius: 6px;
+                  padding: 5px 0;
+                  
+                  /* Position the tooltip */
+                  position: absolute;
+                  z-index: 1;
+                  top: 100%;
+                  left: 50%;
+                  margin-left: -60px;
+              }
+              
+              .tooltip:hover .tooltiptext {
+                  visibility: visible;
+              }
+              
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 
 @media screen and (max-width: 68.125em) {
