@@ -10,6 +10,7 @@ färgpalett:
 <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
 font-family: 'Covered By Your Grace', cursive;
 --*/
+/*Hej*/
 body {
   width: 100%;
   margin: 0;
@@ -94,7 +95,7 @@ img {
     font-size: 7em;
     height: 150px;
     margin-top: 2em;
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 
   .logo-container p, .logo-container button {
