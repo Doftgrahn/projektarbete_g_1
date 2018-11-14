@@ -145,8 +145,8 @@ html {
 
 
 .product-image{
-  width: 370px;
-  height: 370px;
+  width: 200px;
+  height: 200px;
 }
 
 .grid {
@@ -220,65 +220,6 @@ html {
 	font-weight: 700;
 	text-align: right;
 }
-
-
-              .tooltip {
-                  position: relative;
-                  display: inline-block;
-                  border-bottom: 1px dotted black;
-              }
-              
-              .tooltip .tooltiptext {
-                  visibility: hidden;
-                  width: 120px;
-                  background-color: black;
-                  color: #fff;
-                  text-align: center;
-                  border-radius: 6px;
-                  padding: 5px 0;
-                  
-                  /* Position the tooltip */
-                  position: absolute;
-                  z-index: 1;
-                  top: 100%;
-                  left: 50%;
-                  margin-left: -60px;
-              }
-              
-              .tooltip:hover .tooltiptext {
-                  visibility: visible;
-              }
-              
-             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media Queries */
 
