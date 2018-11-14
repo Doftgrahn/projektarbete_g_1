@@ -12,8 +12,10 @@ font-family: 'Covered By Your Grace', cursive;
 --*/
 /*Hej*/
 body {
+  position: relative;
   width: 100%;
   margin: 0;
+  /* margin-top:200px; */
   padding: 0;
   background-color: #1a1919;
   color: #f6f4f2;
@@ -25,6 +27,96 @@ img {
   border-radius: 2px;
 }
 
+/*----Här börjar header -----*/
+.head {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background-color: #1a1919;
+  opacity: 0.8;
+  left: 0;
+  font-family: ‘Shadows Into Light’, cursive;
+  z-index: 1;
+  /* animation: change 10s infinite; */
+}
+
+/* @keyframes change{
+  0%  { background-color:#1a1919}
+  25% { background-color:#be000e}
+  50% { background-color:#f6f4f2}
+  75% { background-color:#002b6c}
+  100%{ background-color:#011e2e}
+} */
+.logo {
+  text-align: center;
+  color: #f6f4f2;
+  margin-top: -50px;
+  font-family: arial;
+  font-size: 50px;
+}
+
+.hitta_hit {
+  margin-left: 50px;
+  height: 50px;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-left: 400px;
+}
+
+ul li {
+  background-color: #1a1919;
+  float: left;
+  height: 40px;
+  width: 210px;
+  line-height: 40px;
+  font-family: arial;
+}
+
+.logg_in {
+  font-size: 14px;
+  color: white;
+  margin-top: -60px;
+  float: right;
+  margin-right: 100px;
+}
+
+.logg_in_bar {
+  margin-top: -30px;
+  float: right;
+  margin-right: 20px;
+}
+
+.logga_in_img {
+  margin-top: -60px;
+  float: right;
+  margin-right: -350px;
+}
+
+.logg_contanier>li {
+  width: 0px;
+  height: 0px;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: inline-grid;
+  background-color: black;
+}
+
+/* Slut på header */
 /*--Bild med text--*/
 .logo-container {
   /* position: relative; */
@@ -33,6 +125,7 @@ img {
   width: 100%;
   min-height: 666px;
   margin: 0 auto;
+  margin-top: 110px;
   /*Parallax effect*/
   background-attachment: fixed;
   background-position: center;
@@ -44,13 +137,13 @@ img {
   .logo-container p {}
 }
 
-.logo {
+.logo-home {
   position: relative;
   display: inline-block;
   color: #f6f4f2;
-  margin-top: 1.6em;
+  margin-top: 1em;
   text-decoration: none;
-  font-size: 8rem;
+  font-size: 15em;
 }
 
 .logo-container p {
@@ -86,12 +179,12 @@ img {
 
 @media (max-width:600px) {
   .logo-container {
-    height: 200px;
+    height: 400px;
   }
 }
 
 @media (max-width:600px) {
-  .logo {
+  .logo-home {
     font-size: 7em;
     height: 150px;
     margin-top: 2em;
@@ -99,7 +192,7 @@ img {
   }
 
   .logo-container p, .logo-container button {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
 
@@ -107,7 +200,7 @@ img {
 .main-container {
   /*display: grid;
   grid-template-columns: repeat(3, 1fr);*/
-  height: 400px;
+  height: 540px;
   text-align: center;
   background-color: #011e2e;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
@@ -118,7 +211,7 @@ img {
 
 @media (max-width:600px) {
   .main-container {
-    height: 1000px;
+    height: 1100px;
   }
 }
 
@@ -130,6 +223,7 @@ img {
 
 .main-container h2 {
   margin: 0px;
+  margin-top: 50px;
   position: relative;
   top: 10px;
   font-size: 2rem;
@@ -249,7 +343,7 @@ q:before, q:after {
   .contactus-container {
     margin: 0 auto;
     font-size: 0.3em;
-    height: 320px;
+    height: 420px;
   }
 }
 
@@ -300,7 +394,7 @@ q:before, q:after {
 /*grid börjar */
 .stories-grid {
   width: 100%;
-  height: 20vw;
+  /* height: 900px; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   /*grid-template-rows: 50%;*/
@@ -315,7 +409,7 @@ q:before, q:after {
 }
 
 .gridall {
-  /*width:100%;*/
+  /* width:100%; */
   /*border: 1px solid black;*/
   margin: 0;
   padding: 0;
@@ -357,7 +451,7 @@ q:before, q:after {
   opacity: 0.6;
 }
 
-.text {
+.text1 {
   color: #011e2e;
   font-size: 1rem;
   position: absolute;
@@ -378,6 +472,45 @@ q:before, q:after {
 }
 
 /*---------Footer starts here-------*/
-.footer {}
+/*
+html body {
+  position: relative;
+}
+*/
+.container_footer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  /* right: 0px; */
+  left: 0px;
+  bottom: 0px;
+  background-color: #011e2e;
+  color: #f6f4f2;
+  border-top: 1px solid black;
+  font-family: ‘Shadows Into Light’, cursive;
+}
+
+.socal_text {
+  margin-left: 36px;
+  font-size: 25px;
+}
+
+.socal_icon {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 30px;
+}
+
+.open_time {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.map {
+  /* float: right; */
+  margin-top: -150px;
+  margin-right: 50px;
+}
 
 /*
