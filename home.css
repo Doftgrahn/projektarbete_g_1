@@ -17,6 +17,7 @@ body {
   background-color: #1a1919;
   color: #f6f4f2;
   font-size: 18px;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 img {
@@ -25,12 +26,12 @@ img {
 
 /*--Bild med text--*/
 .logo-container {
-  position: relative;
+  /* position: relative; */
   text-align: center;
   background-image: url("pictures/spa_photo.png");
   width: 100%;
   min-height: 666px;
-  margin:0 auto;
+  margin: 0 auto;
   /*Parallax effect*/
   background-attachment: fixed;
   background-position: center;
@@ -38,35 +39,29 @@ img {
   background-size: cover;
 }
 
-/*
-@media (max-width: 600px){
-  .logo-container {
-    color:green;
-  }
+@media (max-width: 600px) {
+  .logo-container p {}
 }
-*/
+
 .logo {
+  position: relative;
   display: inline-block;
-  font-family: 'Indie Flower', cursive;
-  color: #be000e;
-  margin-top: 50px;
+  color: #f6f4f2;
+  margin-top: 1.6em;
   text-decoration: none;
   font-size: 8rem;
-  top: 50%;
-  left: 50%;
 }
 
 .logo-container p {
-  top: 10%;
-  left: 40%;
-  font-family: 'Indie Flower', cursive;
+  /* top: 10%; */
+  /* left: 40%; */
   font-size: 2rem;
-  color: #be000e;
+  color: #f6f4f2;
 }
 
 .logo-container button {
   background: none;
-  font-size: 2em;
+  font-size: 3em;
   text-decoration: none;
   border: none;
   display: inline-block;
@@ -76,12 +71,12 @@ img {
   right: 70%;
   cursor: pointer;
   color: #be000e;
-  font-family: 'Indie Flower', cursive;
-  transition: .3s ease
+  transition: .3s ease;
+  font-family: 'Reenie Beanie', cursive;
 }
 
 .logo-container button:hover {
-  color: #011e2e;
+  color: #002b6c;
 }
 
 .logo-container button:visited {
@@ -90,19 +85,20 @@ img {
 
 @media (max-width:600px) {
   .logo-container {
-    height: 400px;
-    margin:0 auto;
+    height: 200px;
   }
 }
 
 @media (max-width:600px) {
   .logo {
-    font-size: 4em;
-    height: 250px;
+    font-size: 7em;
+    height: 150px;
+    margin-top: 2em;
+    margin-bottom:0;
   }
- .logo-container p, .logo-container button {
 
-   font-size:1.2em;
+  .logo-container p, .logo-container button {
+    font-size: 1.2em;
   }
 }
 
@@ -110,14 +106,13 @@ img {
 .main-container {
   /*display: grid;
   grid-template-columns: repeat(3, 1fr);*/
-  height: 540px;
+  height: 400px;
   text-align: center;
-  margin-top: -48px;
-  font-family: 'Shadows Into Light', cursive;
   background-color: #011e2e;
-  background-image: linear-gradient(to bottom right, #2b4c7d, #011e2e);
-  color: #ff9800;
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+  color: #f6f4f2;
   font-size: 1.2rem;
+  border-top: 1px solid #be000e;
 }
 
 @media (max-width:600px) {
@@ -133,25 +128,27 @@ img {
 }
 
 .main-container h2 {
+  margin: 0px;
   position: relative;
-  top: 25px;
+  top: 10px;
   font-size: 2rem;
   text-shadow: 3px 3px #011e2e;
 }
 
 .main-container p {
-  bottom: 15px;
-  font-family: arial;
+  position: relative;
+  margin: 0px bottom: 15px;
   font-size: 1rem;
+  font-family: arial;
 }
 
 /* TEST */
 cite {
   display: block;
   text-align: center;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin-top: 1rem;
-  font-size: .5vw;
+  font-size: 0.8rem;
   font-style: normal;
 }
 
@@ -173,16 +170,17 @@ q {
 
 q:before {
   content: open-quote;
-  margin-right: 3.6rem;
+  margin-right: 1rem;
 }
 
 q:after {
   content: close-quote;
+  margin-left: 1rem;
 }
 
 q:before, q:after {
   color: #ccc;
-  font-size: 3.4rem;
+  font-size: 2rem;
 }
 
 /*Slut på test */
@@ -194,22 +192,24 @@ q:before, q:after {
 }
 
 .flexall {
-  /*width: 100%;*/
-  /*flex-wrap: wrap;*/
-  object-fit: cover;
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+  /* object-fit: cover; */
   position: relative;
+  opacity: 0.8;
 }
 
 .flex1 {
   /*height: 300px;*/
-  position: relative;
   /*object-fit: cover;*/
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #be000e;
+  border-top: 1px solid #be000e;
 }
 
 .flex2,
 .flex3 {
   width: 100%;
+  border-bottom: 1px solid #be000e;
   /*height: 200px;*/
   /*position: relative;*/
   /*object-fit: cover;*/
@@ -225,7 +225,7 @@ q:before, q:after {
   height: 100%;
   width: 100%;
   transition: 0.5s ease;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .flex-container img:hover {
@@ -235,13 +235,12 @@ q:before, q:after {
 
 /*Slut på flex, början på  kända personer som använder */
 .contactus-container {
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-color: #011e2e;
-  background-image: linear-gradient(to bottom right, #2b4c7d, #011e2e);
-  font-family: 'Shadows Into Light', cursive;
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   text-align: center;
-  color: #ff9800;
+  color: #f6f4f2;
   font-size: 2rem;
 }
 
@@ -249,12 +248,12 @@ q:before, q:after {
   .contactus-container {
     margin: 0 auto;
     font-size: 0.3em;
-    height:520px;
+    height: 320px;
   }
 }
 
 .contactus-container h2 {
-  color: #ff9800;
+  color: #f6f4f2;
   position: relative;
   margin: 0;
   font-size: 4rem;
@@ -273,9 +272,10 @@ q:before, q:after {
   color: #f6f4f2;
   display: inline-block;
 }
+
 @media (max-width:600px) {
   .contactus-container h3 a {
-    font-size:4em;
+    font-size: 4em;
   }
 }
 
@@ -293,7 +293,7 @@ q:before, q:after {
 
 .contactus-container p a:hover {
   text-decoration: none;
-  background-color: #011e2e;
+  color: #f6f4f2;
 }
 
 /*grid börjar */
@@ -366,6 +366,7 @@ q:before, q:after {
   text-align: center;
   margin: 0 auto;
   padding: 20px;
+  font-family: arial;
 }
 
 @media (max-width:600px) {
