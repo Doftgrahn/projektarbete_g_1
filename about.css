@@ -30,6 +30,16 @@ header {
   grid-template-rows: repeat(5, 500px);
 }
 
+/*
+@media (min-width:600px){
+  .container {
+    grid-template-rows
+  }
+
+  p.nrdnhdfnhfh
+}*/
+
+
 p:nth-child(2) {
   position: relative;
   bottom: 13%;
@@ -43,7 +53,7 @@ p:nth-child(3) {
 }
 
 .bak {
-  z-index: -1;
+  z-index: 0;
   position: fixed;
   width: 480px;
   height: 90vw;
