@@ -533,6 +533,7 @@ q:before, q:after {
   .open_time {
     font-size: .7em;
     float: left;
+    margin:-15px;
   }
   .socal_icon {
     bottom:0;
