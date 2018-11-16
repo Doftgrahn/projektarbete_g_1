@@ -19,24 +19,56 @@ body {
 
 .grid_columns {
   display: grid;
-  position: absolute;
   z-index: 1;
   text-align: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 1fr 1fr;
+}
+.grid_columns div{
+    padding:0px 0px 0px 0px;
+    padding-top: 30px;
+
+
 }
 
-div img {
-  width: 175px;
-  height: 175px;
-  padding: 25px;
+.grid_columns div img{
+  width: 75%;
   object-fit: cover;
+
 }
 
 .text {
+position: relative;
 color: silver;
 font-size: 18px;
+top: 50%
+}
 
+.simon {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.kamphol {
+  grid-column: 4;
+  grid-row: 2;
+  }
+
+.kristina{
+  grid-column: 2;
+grid-row: 1;
+
+}
+
+.samira{
+  grid-column: 3;
+grid-row: 1;
+
+}
+
+.julian {
+  grid-column: 4;
+  grid-row: 1;
 }
 
 @media (max-width:600px){
