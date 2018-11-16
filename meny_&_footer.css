@@ -3,13 +3,13 @@
 
 .head {
   width: 100%;
-  height: auto;
+  height: 134px;
   position: fixed;
   top: 0;
   background-color: #1a1919;
   opacity: 0.8;
   left: 0;
-  font-family: ‘Shadows Into Light’, cursive;
+font-family: 'Montserrat', sans-serif;
   z-index: 1;
   /* animation: change 10s infinite; */
 }
@@ -22,18 +22,21 @@
   100%{ background-color:#011e2e}
 } */
 .logo {
-  width: auto;
+
+  /* width: auto; */
   text-align: center;
   color: #f6f4f2;
   margin-top: -50px;
-  font-family: ‘Shadows Into Light’, cursive;
+
   font-size: 300%;
+  height: 100px;
+
 }
 
 .hitta_hit {
   margin-left: 1%;
   height: 50px;
-  font-size:90%;
+  font-size:100%;
 }
 
 a {
@@ -54,7 +57,7 @@ ul {
   float: left;
   height: 40px;
    width: 22%;
-  /* line-height: 40px; 
+  /* line-height: 40px;
   font-family: arial;
   text-align: center
 

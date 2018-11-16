@@ -73,7 +73,7 @@ a {
 /*----Här börjar header -----*/
 .head {
   width: 100%;
-  height: auto;
+  height: 133px;
   position: fixed;
   top: 0;
   font-family: 'Montserrat', sans-serif;
@@ -93,7 +93,7 @@ a {
   100%{ background-color:#011e2e}
 } */
 .logo {
-  width: auto;
+
   text-align: center;
   color: #cbbcab;
   margin-top: -50px;
@@ -104,7 +104,7 @@ a {
 .hitta_hit {
   margin-left: 1%;
   height: 50px;
-  font-size: 90%;
+  font-size: 100%;
 }
 
 ul {
@@ -117,12 +117,14 @@ ul {
 ul li {
   /* background-color: #1a1919; */
   position: relative;
-  left: 15%;
+
+  left: 23%;
   float: left;
-  height: 40px;
-  width: 22%;
+  /* height: 70px; */
+  width: 19%;
+  font-size: 2em;
   /* line-height: 40px; */
-  text-align: center
+   text-align: center
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 
