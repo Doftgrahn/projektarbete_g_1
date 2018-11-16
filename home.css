@@ -5,12 +5,18 @@ färgpalett:
 #f6f4f2
 #002b6c
 #011e2e
-
+//Ny textfärg - på blå bakgrund
+#cbbcab  <-- både p & h1 - h6
+#af4e31  <-- istället för röd
 /*--
 <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
 font-family: 'Covered By Your Grace', cursive;
 --*/
 /*Hej*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   position: relative;
   width: 100%;
@@ -24,8 +30,40 @@ body {
 }
 
 img {
-  border-radius: 2px;
+  border-radius: 5px;
 }
+
+h2 {
+  margin-top: 50px;
+  margin: 0px;
+  /* position: relative; */
+  top: 10px;
+  font-size: 2rem;
+  text-shadow: 3px 3px #011e2e;
+  color: #cbbcab;
+}
+h3 {
+  font-size:2em;
+}
+
+p {
+  /* position: relative; */
+  margin: 0px bottom: 15px;
+  font-size: 1.3rem;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+  color: #cbbcab;
+  font-size: 1em;
+  display: inline-block;
+  transition: 0.4s;
+  color: #af4e31 ;
+}
+
 
 /*----Här börjar header -----*/
 .head {
@@ -61,10 +99,6 @@ img {
   margin-left: 1%;
   height: 50px;
   font-size:90%;
-}
-
-a {
-  color: white;
 }
 
 ul {
@@ -140,40 +174,38 @@ ul li:hover ul li {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-@media (max-width: 600px) {
-  .logo-container p {}
+  padding: 50px;
+  color: #af4e31;
 }
 
 .logo-home {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
-  color: #f6f4f2;
-  margin-top: 1em;
+  margin: 0;
+  margin-top: 140px;
   text-decoration: none;
-  font-size: 15em;
+  font-size: 15rem;
 }
 
 .logo-container p {
   /* top: 10%; */
   /* left: 40%; */
-  font-size: 2rem;
+  font-size: 3rem;
   color: #f6f4f2;
 }
 
 .logo-container button {
   background: none;
-  font-size: 3em;
+  font-size: 5em;
   text-decoration: none;
   border: none;
   display: inline-block;
-  padding: 16px 22px;
+  /padding: 16px 22px;
   position: static;
-  top: 20%;
-  right: 70%;
+  /* top: 20%; */
+  /* right: 70%; */
   cursor: pointer;
-  color: #be000e;
+  color: #af4e31;
   transition: .3s ease;
   font-family: 'Reenie Beanie', cursive;
 }
@@ -183,7 +215,7 @@ ul li:hover ul li {
 }
 
 .logo-container button:visited {
-  color: #f6f4f2;
+  color: #cbbcab;
 }
 
 @media (max-width:600px) {
@@ -205,55 +237,26 @@ ul li:hover ul li {
   }
 }
 
-/*-- Början på introduktion -grid */
-.main-container {
-  /*display: grid;
-  grid-template-columns: repeat(3, 1fr);*/
-  height: 540px;
-  text-align: center;
-  background-color: #011e2e;
-  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
-  color: #f6f4f2;
-  font-size: 1.2rem;
-  border-top: 1px solid #be000e;
-}
-
+/*-- Början på introduktion  */
+/*
 @media (max-width:600px) {
   .main-container {
     height: 1100px;
   }
 }
 
-.textdiv {
-  margin: 0 auto;
-  width: 50%;
-  position: static;
-}
 
-.main-container h2 {
-  margin: 0px;
-  margin-top: 50px;
-  position: relative;
-  top: 10px;
-  font-size: 2rem;
-  text-shadow: 3px 3px #011e2e;
-}
 
-.main-container p {
-  position: relative;
-  margin: 0px bottom: 15px;
-  font-size: 1rem;
-  font-family: arial;
-}
 
 /* TEST */
 cite {
   display: block;
   text-align: center;
   font-family: Arial, sans-serif;
-  margin-top: 1rem;
-  font-size: 0.8rem;
+  margin-top:50px;
+  font-size: 1.2rem;
   font-style: normal;
+  padding: 50px;
 }
 
 blockquote q {
@@ -292,11 +295,11 @@ q:before, q:after {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  /*width: 100%;*/
+  /* width: 100%; */
 }
 
 .flexall {
-  /* width: 100%; */
+  width: 100%;
   /* flex-wrap: wrap; */
   /* object-fit: cover; */
   position: relative;
@@ -338,39 +341,27 @@ q:before, q:after {
 }
 
 /*Slut på flex, början på  kända personer som använder */
-.contactus-container {
-  height: 300px;
+.textall {
+  margin: 0 auto;
+  /* margin-top:50px; */
   width: 100%;
   background-color: #011e2e;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   text-align: center;
   color: #f6f4f2;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  padding: 50px;
 }
 
 @media (max-width:600px) {
-  .contactus-container {
+  .textall {
     margin: 0 auto;
     font-size: 0.3em;
-    height: 420px;
+    /* height: 420px; */
   }
 }
 
-.contactus-container h2 {
-  color: #f6f4f2;
-  position: relative;
-  margin: 0;
-  font-size: 4rem;
-}
-
-.contactus-container h3 a {
-  display: inline-block;
-  text-decoration: none;
-  transition: 0.4s;
-  color: #be000e;
-}
-
-.contactus-container h3 a:hover {
+.textall h3 a:hover {
   /*background-color: #011e2e;*/
   text-decoration: none;
   color: #f6f4f2;
@@ -378,28 +369,48 @@ q:before, q:after {
 }
 
 @media (max-width:600px) {
-  .contactus-container h3 a {
-    font-size: 4em;
+  .textall h3 a {
+    font-size: 10em;
   }
 }
 
-.contactus-container p {
-  font-family: arial;
-  font-size: 1rem;
-}
-
-.contactus-container p a {
-  text-decoration: none;
-  transition: 0.4s;
-  color: #be000e;
-  font-size: 1em;
-}
-
-.contactus-container p a:hover {
+.textall p a:hover {
   text-decoration: none;
   color: #f6f4f2;
 }
 
+/* Början på vitt område */
+.headline_block {
+  /* background:#f6f4f2; */
+  color: #011e2e;
+  text-align: center;
+  padding: 50px;
+  animation: changeBackground 1s ease infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background: #f6f4f2;
+  }
+
+  40% {
+    background: #afada8;
+  }
+
+  60% {
+    background: #afada8;
+  }
+
+  100% {
+    background: #f6f4f2;
+  }
+}
+
+.headline_block h2 {
+  margin: 0;
+}
+
+/* Slut på vitt område */
 /*grid börjar */
 .stories-grid {
   width: 100%;
@@ -462,15 +473,16 @@ q:before, q:after {
 
 .text1 {
   color: #011e2e;
+  width: 50%;
   font-size: 1rem;
   position: absolute;
-  top: 50%;
+   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   margin: 0 auto;
   padding: 20px;
-  font-family: arial;
+  font-family: 'Roboto';
 }
 
 @media (max-width:600px) {
@@ -530,5 +542,3 @@ bottom: 1em;
 right: 0;
   margin-right: 10px;
 }
-
-/*
