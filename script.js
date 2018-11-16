@@ -1,4 +1,4 @@
-function splitWords() {
+/*function splitWords() {
   let quote = document.querySelector("blockquote q");
   quote.innerText.replace(/(<([^>]+)>)/ig,"");
   quotewords = quote.innerText.split(" "),
@@ -38,3 +38,4 @@ function fadeWords(quotewords) {
 
 
 splitWords();
+*/

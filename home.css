@@ -12,6 +12,11 @@ färgpalett:
 <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
 font-family: 'Covered By Your Grace', cursive;
 --*/
+/*
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+font-family: 'Montserrat', sans-serif;
+*/
 /*Hej*/
 * {
   box-sizing: border-box;
@@ -24,9 +29,9 @@ body {
   /* margin-top:200px; */
   padding: 0;
   background-color: #1a1919;
-  color: #f6f4f2;
+  color: #1a1919;
   font-size: 18px;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -45,14 +50,15 @@ h2 {
 
 h3 {
   font-size: 2em;
+  color: #cbbcab;
 }
 
 p {
   /* position: relative; */
   margin: 0px bottom: 15px;
   font-size: 1.3rem;
-  font-family: 'Roboto';
   text-align: center;
+  color: #cbbcab;
 }
 
 a {
@@ -62,7 +68,6 @@ a {
   font-size: 1em;
   display: inline-block;
   transition: 0.4s;
-  color: #af4e31;
 }
 
 /*----Här börjar header -----*/
@@ -72,9 +77,9 @@ a {
   position: fixed;
   top: 0;
   background-color: #1a1919;
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   opacity: 0.8;
   left: 0;
-  font-family: ‘Shadows Into Light’, cursive;
   z-index: 1;
   /* animation: change 10s infinite; */
 }
@@ -89,23 +94,22 @@ a {
 .logo {
   width: auto;
   text-align: center;
-  color: #f6f4f2;
+  color: #cbbcab;
   margin-top: -50px;
-  font-family: ‘Shadows Into Light’, cursive;
   font-size: 300%;
 }
 
 .hitta_hit {
   margin-left: 1%;
   height: 50px;
-  font-size:90%;
+  font-size: 90%;
 }
 
 ul {
-   margin: 0px;
+  margin: 0px;
   padding: 0px;
   list-style: none;
-   /* margin-left: 35%; */
+  /* margin-left: 35%; */
 }
 
 ul li {
@@ -114,19 +118,18 @@ ul li {
   left: 15%;
   float: left;
   height: 40px;
-   width: 22%;
+  width: 22%;
   /* line-height: 40px; */
-  font-family: arial;
   text-align: center
-
 }
 
-.logg_in{
-    font-size: 90%;
-   position: absolute;
+.logg_in {
+  font-size: 90%;
+  position: absolute;
   right: 2px;
-   top: 2px;
-   margin-right: 5%;
+  top: 2px;
+  margin-right: 5%;
+  color:#cbbcab;
 }
 
 /* .logg_in_bar {
@@ -134,13 +137,10 @@ ul li {
   float: right;
   /* margin-right: -10px;
 }*/
-
 /* .logga_in_img {
   /* margin-top: -60px; */
-
-  /* margin-right: -15em;
+/* margin-right: -15em;
 } */
-
 .logg_contanier>li {
   margin-right: 2em;
   max-width: 100px;
@@ -153,13 +153,10 @@ ul li ul li {
 
 ul li:hover ul li {
   display: inline-grid;
-  background-color: black;
+  background-color: #1a1919;
 }
 
 /* Slut på header */
-
-
-
 /*--Bild med text--*/
 .logo-container {
   /* position: relative; */
@@ -168,7 +165,7 @@ ul li:hover ul li {
   width: 100%;
   min-height: 666px;
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 124px;
   /*Parallax effect*/
   background-attachment: fixed;
   background-position: center;
@@ -207,7 +204,6 @@ ul li:hover ul li {
   cursor: pointer;
   color: #af4e31;
   transition: .3s ease;
-  font-family: 'Reenie Beanie', cursive;
 }
 
 .logo-container button:hover {
@@ -220,16 +216,18 @@ ul li:hover ul li {
 
 @media (max-width:600px) {
   .logo-container {
-    height: 400px;
+    object-fit: fill;
   }
 }
 
 @media (max-width:600px) {
   .logo-home {
-    font-size: 7em;
-    height: 150px;
-    margin-top: 2em;
-    margin-bottom: 0;
+    text-align: center;
+    font-size: 4em;
+    padding: 10px;
+    /* height: 150px; */
+    /* margin-top: 2em; */
+    /* margin-bottom: 0; */
   }
 
   .logo-container p, .logo-container button {
@@ -249,7 +247,6 @@ ul li:hover ul li {
 cite {
   display: block;
   text-align: center;
-  font-family: Arial, sans-serif;
   margin-top: 50px;
   font-size: 1.2rem;
   font-style: normal;
@@ -257,7 +254,6 @@ cite {
 }
 
 blockquote q {
-  font-family: arial;
   font-style: italic;
   letter-spacing: .1rem;
 }
@@ -283,8 +279,18 @@ q:after {
 }
 
 q:before, q:after {
-  color: #ccc;
+  color: #cbbcab;
   font-size: 2rem;
+}
+
+@media (max-width:600px) {
+  q {
+    font-size: 3em;
+    margin: 0;
+  }
+  cite {
+    margin:0;
+  }
 }
 
 /*Slut på test */
@@ -368,14 +374,17 @@ q:before, q:after {
   }
 }
 
-/*.textall p a {
-  font-size
-}
-*/
 .textall p a:hover {
   text-decoration: none;
   color: #f6f4f2;
 }
+
+.promo_pic {
+  width:50px;
+  float:left;
+  padding:10px;
+}
+
 
 /* Början på vitt område */
 .headline_block {
@@ -383,7 +392,7 @@ q:before, q:after {
   color: #011e2e;
   text-align: center;
   padding: 50px;
-  animation: changeBackground 1s ease infinite;
+  animation: changeBackground 20s ease infinite;
 }
 
 @keyframes changeBackground {
@@ -468,18 +477,14 @@ q:before, q:after {
   opacity: 0.6;
 }
 
-.text1 {
+.text1>* {
   color: #011e2e;
   width: 60%;
-  font-size: 0.2rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* text-align: center; */
-  /* margin: 0 auto; */
   padding: 20px;
-  /* font-family: 'Roboto'; */
 }
 
 @media (max-width:600px) {
@@ -491,51 +496,60 @@ q:before, q:after {
 }
 
 /*---------Footer starts here-------*/
-
-
-
-
 .container_footer {
   position: relative;
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
   /* right: 0px; */
   left: 0px;
   bottom: 0px;
   background-color: #011e2e;
   color: #f6f4f2;
-  font-family: ‘Shadows Into Light’, cursive;
-}
-@media (max-width:600px){
-.socal_text {
-  margin-left: 36px;
-  font-size: 100%
-}
 }
 
+@media (max-width:600px) {
+  .socal_text {
+    margin-left: 36px;
+    font-size: 100%
+  }
+}
 
-.socal_icon{
+.socal_icon {
   position: absolute;
   bottom: 0px;
   /* margin-left: 2em; */
   /* width: 10%; */
-
-
 }
-
 
 .open_time {
   text-align: center;
-  font-size: 100%;
-  margin-top:-0.4em;
-width: auto;
-/* margin-right: 2vw; */
+  /* font-size: 100%;  */
+  padding: 40px;
+  width: auto;
+  /* margin-right: 2vw; */
+}
+
+@media (max-width:600px) {
+  .open_time {
+    font-size: .7em;
+    float: left;
+  }
+  .socal_icon {
+    bottom:0;
+  }
 }
 
 .map {
   /* float: right; */
-position: absolute;
-bottom: 1em;
-right: 0;
+  /* position: absolute; */
+  bottom: 1em;
+  right: 0;
   margin-right: 10px;
+}
+
+@media (max-width:600px) {
+  .map {
+    height: 100px;
+    width: 100px;
+  }
 }
