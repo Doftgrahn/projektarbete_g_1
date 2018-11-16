@@ -34,9 +34,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-img {
+/* img {
   border-radius: 5px;
-}
+} */
 
 h2 {
   margin-top: 50px;
@@ -76,6 +76,7 @@ a {
   height: auto;
   position: fixed;
   top: 0;
+  font-family: 'Montserrat', sans-serif;
   background-color: #1a1919;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   opacity: 0.8;
@@ -97,6 +98,7 @@ a {
   color: #cbbcab;
   margin-top: -50px;
   font-size: 300%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .hitta_hit {
@@ -113,7 +115,7 @@ ul {
 }
 
 ul li {
-  background-color: #1a1919;
+  /* background-color: #1a1919; */
   position: relative;
   left: 15%;
   float: left;
@@ -121,6 +123,7 @@ ul li {
   width: 22%;
   /* line-height: 40px; */
   text-align: center
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 
 .logg_in {
@@ -147,14 +150,14 @@ ul li {
   max-height: 100px;
 }
 
-ul li ul li {
+/* ul li ul li {
   display: none;
-}
+} */
 
-ul li:hover ul li {
+ /* ul li:hover ul li {
   display: inline-grid;
-  background-color: #1a1919;
-}
+background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+} */
 
 /* Slut på header */
 /*--Bild med text--*/
@@ -505,6 +508,7 @@ q:before, q:after {
   bottom: 0px;
   background-color: #011e2e;
   color: #f6f4f2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width:600px) {
@@ -549,7 +553,7 @@ q:before, q:after {
 
 @media (max-width:600px) {
   .map {
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
   }
 }
