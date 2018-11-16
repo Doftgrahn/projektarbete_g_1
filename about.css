@@ -1,0 +1,53 @@
+/* Färgpalett
+färgpalett:
+#1a1919
+#be000e
+#f6f4f2
+#002b6c
+#011e2e
+*/
+body {
+  margin:0;
+}
+
+.wallpaper {
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  z-index: -1;
+}
+
+.grid_columns {
+  display: grid;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+div img {
+  width: 175px;
+  height: 175px;
+  padding: 25px;
+  object-fit: cover;
+}
+
+.text {
+color: silver;
+font-size: 18px;
+
+}
+
+@media (max-width:600px){
+  .grid_columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*
+@media (min-width:900px){
+  .grid_columns {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  */
