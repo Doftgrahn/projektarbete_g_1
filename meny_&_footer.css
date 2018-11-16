@@ -47,18 +47,18 @@ ul {
    /* margin-left: 35%; */
 }
 
-ul li {
-  background-color: #1a1919;
+/* ul li {
+
   position: relative;
   left: 15%;
   float: left;
   height: 40px;
    width: 22%;
-  /* line-height: 40px; */
+  /* line-height: 40px; 
   font-family: arial;
   text-align: center
 
-}
+} */
 
 .logg_in{
     font-size: 90%;
@@ -86,14 +86,14 @@ ul li {
   max-height: 100px;
 }
 
-ul li ul li {
+/* ul li ul li {
   display: none;
 }
 
 ul li:hover ul li {
   display: inline-grid;
   background-color: black;
-}
+} */
 /*----------- header ends here-----------*/
 
 
