@@ -1,26 +1,15 @@
-/* Färgpalett
-färgpalett:
-#1a1919
-#be000e
-#f6f4f2
-#002b6c
-#011e2e
-*/
-  body{
-      position: relative;
-      padding: 0;
-      width: 100%;
-  }
-/*----Här börjar header -----*/
+
+/* ---------------header börjar här ----------------- */
+
 .head {
   width: 100%;
-  height: auto;
+  height: 134px;
   position: fixed;
   top: 0;
   background-color: #1a1919;
   opacity: 0.8;
   left: 0;
-  font-family: ‘Shadows Into Light’, cursive;
+font-family: 'Montserrat', sans-serif;
   z-index: 1;
   /* animation: change 10s infinite; */
 }
@@ -33,18 +22,21 @@ färgpalett:
   100%{ background-color:#011e2e}
 } */
 .logo {
-  width: auto;
+
+  /* width: auto; */
   text-align: center;
   color: #f6f4f2;
   margin-top: -50px;
-  font-family: ‘Shadows Into Light’, cursive;
+
   font-size: 300%;
+  height: 100px;
+
 }
 
 .hitta_hit {
   margin-left: 1%;
   height: 50px;
-  font-size:90%;
+  font-size:2vw%;
 }
 
 a {
@@ -58,26 +50,25 @@ ul {
    /* margin-left: 35%; */
 }
 
-ul li {
-  background-color: #1a1919;
+/* ul li {
+
   position: relative;
   left: 15%;
   float: left;
   height: 40px;
    width: 22%;
-  /* line-height: 40px; */
+  /* line-height: 40px;
   font-family: arial;
   text-align: center
 
-}
+} */
 
 .logg_in{
-font-size: 90%;
-position: absolute;
-right: 2px;
-top: 2px;
-margin-right: 5%;
-color: #f6f4f2;
+    font-size: 90%;
+   position: absolute;
+  right: 2px;
+   top: 2px;
+   margin-right: 5%;
 }
 
 /* .logg_in_bar {
@@ -98,77 +89,30 @@ color: #f6f4f2;
   max-height: 100px;
 }
 
-ul li ul li {
+/* ul li ul li {
   display: none;
 }
 
 ul li:hover ul li {
   display: inline-grid;
   background-color: black;
-}
-
+} */
 /*----------- header ends here-----------*/
 
 
-/*
-body{
+
+
+
+
+/* html body{
+  height: 2000px;
   position: relative;
-} */
-.container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 250px;
-}
-.container img{
-  width: 100%;
-  height: 100%;
-}
- /* div{
-  / *border: 1px solid gray;* /
-  border-radius: 0px;
-  background-color: #011e2e;
-  grid-gap: 0px;
-  padding: 0px;
-  / * opacity: 0.9; * /
-}
-/*div div:hover{
-  border: 1px solid gray;
-}*/
-.container > div{
-  position: relative;
-  width: 100%;
-  height: 250px;
-  border-radius: 0px;
-  background-color: #011e2e;
-  grid-gap: 0px;
-  padding: 0px;
-}
-.overlay{
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  right: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 1em;
-  transition: .5s ease;
-  opacity: 0.6;
-}
-.text{
-
-  color: #f6f4f2;
-  font-size: 1em;
-  position: absolute;
-  width: 100%;
-  top: 50%;
-
-  /*bottom: 50%;*/
-  text-align: center;
-  transform: translateY(-50%);
 }
 
+. */
 
 
+/* ----------------Footer starts here------------------ */
 .container_footer {
   position: relative;
   width: 100%;
