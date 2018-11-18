@@ -6,6 +6,7 @@ body {
 h1, h2, h3 {
     font-family: "Roboto Condensed";
     font-weight: normal;
+    color:#cbbcab
 }
 .width100 {
     width: 100%;
@@ -69,8 +70,15 @@ details[open] summary:after {
 }
 .sami-thumbnail-div img{
     width: 15%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .sami-images{
     width: 100%;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
+
+
+
