@@ -8,14 +8,7 @@ färgpalett:
 //Ny textfärg - på blå bakgrund
 #cbbcab  <-- både p & h1 - h6
 #af4e31  <-- istället för röd [Länkar]
-/*--
-<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
-font-family: 'Covered By Your Grace', cursive;
---*/
-/*
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-font-family: 'Montserrat', sans-serif;
 */
 * {
   box-sizing: border-box;
@@ -66,7 +59,7 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
-   font-size: 1em; 
+  font-size: 1em;
   display: inline-block;
   transition: 0.4s;
 }
@@ -76,7 +69,7 @@ a {
 .logo-container {
   text-align: center;
   background-image: url("pictures/tomoko-uji-630443-unsplash.jpg");
-  /* width: 100%; */
+  width: 100%;
   min-height: 666px;
   margin: 0 auto;
   margin-top: 133px;
@@ -210,11 +203,6 @@ q:before, q:after {
   opacity: 0.8;
 }
 
-.flex1 {
-  /*height: 300px;*/
-  /*object-fit: cover;*/
-}
-
 .flex2,
 .flex3 {
   width: 100%;
@@ -253,15 +241,16 @@ q:before, q:after {
 }
 
 .textdiv {
-  width:40%;
+  width: 40%;
   display: inline-block;
 }
-@media (max-width:600px)  {
- .textdiv {
-   width:100%;
-   margin:0 auto;
-   padding:10px;
- }
+
+@media (max-width:600px) {
+  .textdiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
 }
 
 .textall h3 a:hover {
@@ -283,12 +272,6 @@ q:before, q:after {
   color: #af4e31;
 }
 
-.promo_pic {
-  float: left;
-  width: 10%;
-  height: 10%
-}
-
 @media (max-width:600px) {
   .promo_pic {}
 }
@@ -296,10 +279,11 @@ q:before, q:after {
 /* Början på vitt område */
 .headline_block {
   /* background:#f6f4f2; */
+  border: 3px solid black;
   color: #011e2e;
   text-align: center;
-  padding: 50px;
-  animation: changeBackground 20s ease infinite;
+  padding: 30px;
+  animation: changeBackground 5s ease infinite;
 }
 
 @keyframes changeBackground {
@@ -378,7 +362,6 @@ q:before, q:after {
   transform: translate(-50%, -50%);
   padding: 20px;
 }
-
 
 @media (max-width:600px) {
   .text1 {

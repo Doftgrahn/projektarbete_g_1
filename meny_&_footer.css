@@ -14,12 +14,18 @@
 }
 /*
  @keyframes change{
+=======
+
+ /* @keyframes change{
+>>>>>>> 7953a414f35cee33a0eb6647e6e3eb188a4cd79e
   0%  { background-color:#1a1919}
   25% { background-color:#be000e}
   50% { background-color:#f6f4f2}
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
+<<<<<<< HEAD
 }*/
+
 .logo {
   text-align: center;
   color: #cbbcab;
