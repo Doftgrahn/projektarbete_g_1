@@ -5,13 +5,9 @@
   position: fixed;
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-<<<<<<< HEAD
   /* background-color: #1a1919; */
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
-=======
-  background-color: #f6f4f2;
-  /* background-image: linear-gradient(to bottom right, #1a1919, #011e2e); */
->>>>>>> ca01364ae69f7e8396e0aab13529f0f6585bbd68
+
   opacity: 0.8;
   left: 0;
   z-index: 1;
