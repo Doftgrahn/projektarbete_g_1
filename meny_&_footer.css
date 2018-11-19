@@ -54,10 +54,29 @@ a{
   flex-grow: 1;
 }
 
+<<<<<<< HEAD
+ ul li {
+
+  position: relative;
+  left: 15%;
+  float: left;
+  height: 40px;
+   width: 22%;
+   line-height: 50px;
+  font-family: arial;
+  text-align: center
+
+}
+
+.logg_in{
+    font-size: 90%;
+   position: absolute;
+=======
 
 .logg_in {
   font-size: 90%;
   position: absolute;
+>>>>>>> 366beddec9784b7d11d504b718d7e18459dd44fd
   right: 2px;
   top: 2px;
   margin-right: 5%;
