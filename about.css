@@ -13,7 +13,7 @@ html, body {
   margin:0;
   height: 100%;
   width: 100vw;
-  z-index: -1;
+  position: relative;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 /*
@@ -70,7 +70,7 @@ input[type=submit]:hover {
 }
 
 div img {
-  width: 65%;
+   width: 65%;
   height: 65%;
   text-align: center;
   object-fit: cover;
