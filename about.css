@@ -102,6 +102,10 @@ button:hover {
   opacity: 1;
 }
 
+.hover {
+  position: relative;
+}
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -131,11 +135,13 @@ button:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.text:hover {
+
+
+.text:hover img {
   opacity: .0;
 }
 
-.overlay:hover {
+.overlay:hover img {
   opacity: .7;
 }
 
@@ -213,3 +219,19 @@ button:hover {
     grid-template-columns: 1fr 1fr 1fr;
   }
 */
+
+
+
+
+.testflex {
+  display:flex;
+  height:500px;
+  /* width: 100%; */
+  border:1px solid tomato;
+}
+
+
+.allflex{
+  flex:1;
+  border:1px solid lime;
+}
