@@ -67,7 +67,7 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
-  color: #cbbcab;
+  /* color: #cbbcab; */
   font-size: 1em;
   display: inline-block;
   transition: 0.4s;
@@ -430,56 +430,3 @@ input {
 }
 
 /*---------Footer starts here-------*/
-.container_footer {
-  position: relative;
-  width: 100%;
-  left: 0px;
-  bottom: 0px;
-  background-color: #011e2e;
-  color: #f6f4f2;
-  font-family: 'Montserrat', sans-serif;
-}
-
-@media (max-width:600px) {
-  .socal_text {
-    margin-left: 36px;
-    font-size: 100%
-  }
-}
-
-.socal_icon {
-  position: absolute;
-  bottom: 0px;
-}
-
-.open_time {
-  text-align: center;
-  padding: 40px;
-  width: auto;
-}
-
-@media (max-width:600px) {
-  .open_time {
-    font-size: .7em;
-    float: left;
-    margin: -15px;
-  }
-
-  .socal_icon {
-    bottom: 0;
-  }
-}
-
-.map {
-  bottom: 1em;
-  right: 0;
-  margin-right: 10px;
-  padding: 10px;
-}
-
-@media (max-width:600px) {
-  .map {
-    height: 140px;
-    width: 140px;
-  }
-}
