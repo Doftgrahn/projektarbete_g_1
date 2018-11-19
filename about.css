@@ -26,17 +26,18 @@ html, body {
   z-index: 1;
   text-align: center;
   grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(5,1fr);
-  margin-top: 0px;
-  max-width: 700px;
+  grid-template-rows: repeat(3,1fr);
+  margin-top: 0;
+  top: ;
+  max-width: 800px;
 }
 
 .grid_columns > div {
-  border: 1px solid red;
-
+  /*border: 1px solid red;*/
+  position: relative;
 }
 
-/*
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -44,10 +45,21 @@ html, body {
   right: 0;
   overflow: hidden;
   width: 100%;
-  height: 0;
+  height: 4em;
   transition: .5s ease;
 }
-*/
+
+
+.text {
+  color: #cbbcab;
+  position: relative;
+  text-align: center;
+  font-size: 140%;
+  margin-bottom:0;
+  margin-top: 0;
+  z-index: 2;
+  top: 0%;
+}
 
 /*
 .grid_rows {
@@ -61,50 +73,55 @@ html, body {
 }*/
 
 div img {
-  width: 75%;
-  height: 75%;
+  width: 85%;
+  height: 85%;
   text-align: center;
   object-fit: cover;
-  padding-bottom: 5%;
-}
-
-.text {
-color: #cbbcab;
-position: absolute;
-text-align: center;
-font-size: 110%;
-margin-bottom:0;
-margin-top: 0;
+  padding: 5%;
+  border-radius: 25%;
+  z-index: 1;
 
 }
 
 .kristina {
   grid-column: 1/span 2;
-  grid-rows: 1;
+  grid-row: 2;
 }
 
 .samira {
   grid-column: 3/span 2;
-  grid-rows: 1;
+  grid-row: 2;
 }
 
 .julian {
   grid-column: 5/span 2;
-  grid-rows: 1;
+  grid-row: 2;
 }
 
 .kamphol {
   grid-column: 2/span 2;
-  grid-rows: 2;
+  grid-row: 3;
 }
 
 .simon {
   grid-column: 4/span 2;
-  grid-rows: 2;
+  grid-row: 3;
 }
 
 
 @media (max-width:600px){
+
+  div img {
+    vertical-align: middle;
+    width: 60%;
+    height: 60%;
+    padding: 0;
+    padding-bottom: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+
   .grid_columns {
     grid-template-columns: 1fr;
   }
@@ -132,6 +149,9 @@ margin-top: 0;
     grid-column: 1;
     grid-row: 5;
   }
+  .text {
+
+  }
 
 }
 
@@ -141,4 +161,4 @@ margin-top: 0;
   .grid_columns {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  */
+*/
