@@ -5,8 +5,7 @@
   position: fixed;
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  /* background-color: #1a1919; */
-  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+   background-color: #f6f4f2; 
 
   opacity: 0.8;
   left: 0;
