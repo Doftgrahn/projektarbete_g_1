@@ -20,14 +20,14 @@ h1, h2, h3 {
 summary::-webkit-details-marker {
     display: none;
 }
-
+  
 summary:after {
-    float: left;
+    float: left; 
     height: 20px;
     width: 20px;
     content: "+";
 }
-
+  
 details[open] summary:after {
     content: "-";
 }
@@ -87,7 +87,6 @@ p{
 
 .sami-images{
     width: 100%;
-<<<<<<< HEAD
     /* opacity: 0.5; */
     /* filter: alpha(opacity=50); */
 }
@@ -105,6 +104,3 @@ p{
     .sami-grid-items { order: 1; }
 
   }
-=======
-}
->>>>>>> 5924388cccf6fa477ddf1608be114183ebb03960
