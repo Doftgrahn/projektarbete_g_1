@@ -4,6 +4,7 @@
   height: 133px;
   position: fixed;
   top: 0;
+<<<<<<< HEAD
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #1a1919;
    background-image: linear-gradient(to bottom right, #1a1919, #011e2e); 
@@ -11,6 +12,16 @@
   left: 0;
   z-index: 1;
    /* animation: change 10s infinite; */
+=======
+font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f6f4f2;
+  /* background-image: linear-gradient(to bottom right, #1a1919, #011e2e); */
+  opacity: 0.8;
+  left: 0;
+  z-index: 1;
+  /* animation: change 10s infinite; */
+  color:#011e2e;
+>>>>>>> kamphol_version
 }
 
  /* @keyframes change{
@@ -20,9 +31,14 @@
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
 } */
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> kamphol_version
 .logo {
   text-align: center;
-  color: #cbbcab;
+
   margin-top: -50px;
   font-size: 300%;
   font-family: 'Montserrat', sans-serif;
@@ -34,7 +50,11 @@ margin-left: 10px;
   margin-left: 3%;
   height: 50px;
   font-size: 100%;
+<<<<<<< HEAD
   padding-top: 20px;
+=======
+
+>>>>>>> kamphol_version
 }
 
 .meny_cata {
@@ -55,7 +75,7 @@ margin-left: 10px;
   right: 10px;
   top: 30px;
   margin-right: 5%;
-  color: #cbbcab;
+
 }
 
 .logg_contanier>li {
@@ -63,9 +83,14 @@ margin-left: 10px;
   max-width: 100px;
   max-height: 100px;
 }
+<<<<<<< HEAD
 
 a {
   color: #cbbcab;
+=======
+a{
+  color: #011e2e;
+>>>>>>> kamphol_version
   text-decoration: none;
 
 }
@@ -91,9 +116,14 @@ left: 0px;
 background-color: #011e2e;
 =======
 bottom: 0px;
+<<<<<<< HEAD
 background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 >>>>>>> a5170003481e26289b525ce09b76385edc50d1e2
 color: #f6f4f2;
+=======
+background-color: #f6f4f2;
+
+>>>>>>> kamphol_version
 border-top: 1px solid black;
 font-family: 'Roboto Condensed', sans-serif;
 }
