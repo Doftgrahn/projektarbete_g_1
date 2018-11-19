@@ -13,7 +13,6 @@ html, body {
   margin: 0;
   margin-top: 150px;
   height: 100%;
-  /* width: 100vw; */
   z-index: -1;
   position: static;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
