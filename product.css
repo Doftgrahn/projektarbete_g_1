@@ -8,6 +8,11 @@ färgpalett:
 
 
 */
+body{
+  margin-top: 116px;
+}
+
+
 .container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +24,10 @@ färgpalett:
   position: relative;
   width: 1fr 1fr 1fr;
   height: 250px;
-  opacity: 0.8;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
 }
 img{
   width: 100%;
@@ -33,6 +41,8 @@ top: 50%;
 transform: translateY(-50%);
 font-family: ‘Montserrat’, sans-serif;
 font-size: 1.5em;
+color: #011e2e;
+
 }
 
 .overlay{
@@ -40,11 +50,12 @@ font-size: 1.5em;
   bottom: 0;
   overflow: hidden;
   width: 100%;
-  height: 0px;
-  opacity: 1;
+  height: 100%;
+  opacity: 0;
   transition: .5s ease;
-  background-color: #011e2e;
+  background-color: ;
 }
+
 .link{
   font-size: 1.5em;
   position: absolute;
@@ -53,15 +64,25 @@ font-size: 1.5em;
   font-family: ‘Montserrat’, sans-serif;
   text-align: center;
   transform: translateY(-50%);
+
+}
+
+.box:hover  {
+  opacity: 0.4;
 }
 .box:hover .overlay{
-  height: 100%;
+  /*height: 100%;*/
+  opacity: 1;
 }
+
 .link a{
   text-decoration: none;
   color: #f6f4f2;
+  border: 1px solid gray;
+  background-color: #011e2e;
+  padding: 5px;
+  border-radius: 5px;
 }
-
 
 @media (max-width: 480px){
   .container {
@@ -72,4 +93,13 @@ font-size: 1.5em;
   .container {
     grid-template-columns: 1fr 1fr;
   }
+}
+#makecol{
+  color: white;
+}
+#facecol{
+  color: white;
+}
+#hercol{
+  color: white;
 }
