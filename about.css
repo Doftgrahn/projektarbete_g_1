@@ -9,46 +9,53 @@
 #af4e31  <-- istället för röd.
 */
 html, body {
-  font-family: 'Montserrat' , sans-serif;
-  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
   height: 100%;
-  width: 100vw;
-  position: relative;
+  z-index: -1;
+  position: static;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
-/*
+
 * {box-sizing: border-box;}
 
+.formula {
+  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+  position: relative;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  min-width: 600px;
+  display: block;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  resize: vertical;
 }
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+button {
+  display: inline-block;
+  background-color: #4CAF50;
+  padding-top: 1%;
+  margin:
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+button:hover {
+  background-color: #45a049;
 }
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-*/
 
 .grid_columns {
   display: grid;
@@ -59,12 +66,12 @@ input[type=submit]:hover {
   margin-bottom: auto;
   z-index: 1;
   text-align: center;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   max-width: 800px;
 }
 
-.grid_columns > div {
+.grid_columns>div {
   /*border: 1px solid red;*/
   position: relative;
 }
@@ -94,11 +101,11 @@ div img {
   position: relative;
   text-align: center;
   font-size: 100%;
-  margin-bottom:0;
+  margin-bottom: 0;
   margin-top: 0;
   z-index: 2;
   top: 0%;
-  width:auto;
+  width: auto;
   height: auto;
   display: inline;
   background-color: lightgrey;
@@ -138,9 +145,7 @@ div img {
   grid-row: 3;
 }
 
-
-@media (max-width:600px){
-
+@media (max-width:600px) {
   div img {
     vertical-align: middle;
     width: 60%;
@@ -149,12 +154,12 @@ div img {
     padding-bottom: 40%;
     margin-top: auto;
     margin-bottom: auto;
-
   }
 
   .grid_columns {
     grid-template-columns: 1fr;
   }
+
   .kristina {
     grid-column: 1;
     grid-row: 1;
@@ -179,12 +184,9 @@ div img {
     grid-column: 1;
     grid-row: 5;
   }
-  .text {
 
-  }
-
+  .text {}
 }
-
 
 /*
 @media (min-width:900px){
