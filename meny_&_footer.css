@@ -12,22 +12,17 @@
   opacity: 0.8;
   left: 0;
   z-index: 1;
-   animation: change 10s infinite;
+  /* animation: change 10s infinite; */
 }
 
- @keyframes change{
+/* @keyframes change{
   0%  { background-color:#1a1919}
   25% { background-color:#be000e}
   50% { background-color:#f6f4f2}
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
-}
+} */
 
-
-
-a{
-  text-decoration: none;
-}
 .logo {
 
   text-align: center;
@@ -54,29 +49,10 @@ a{
   flex-grow: 1;
 }
 
-<<<<<<< HEAD
- ul li {
-
-  position: relative;
-  left: 15%;
-  float: left;
-  height: 40px;
-   width: 22%;
-   line-height: 50px;
-  font-family: arial;
-  text-align: center
-
-}
-
-.logg_in{
-    font-size: 90%;
-   position: absolute;
-=======
 
 .logg_in {
   font-size: 90%;
   position: absolute;
->>>>>>> 366beddec9784b7d11d504b718d7e18459dd44fd
   right: 2px;
   top: 2px;
   margin-right: 5%;
@@ -97,10 +73,7 @@ a{
 
 
 
-body{
-  position: relative;
-  height: 2000px;
-}
+
 
 
 
