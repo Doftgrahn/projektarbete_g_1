@@ -6,7 +6,7 @@
   height: 133px;
   position: fixed;
   top: 0;
-  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
   background-color: #1a1919;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   opacity: 0.8;
@@ -89,7 +89,7 @@ bottom: 0px;
 background-color: #011e2e;
 color: #f6f4f2;
 border-top: 1px solid black;
-font-family: ‘Shadows Into Light’, cursive;
+font-family: 'Roboto Condensed', sans-serif;
 }
 @media (max-width:600px){
 .socal_text {
@@ -116,7 +116,7 @@ width: auto;
 
 .map {
 position: absolute;
-bottom: 0;
+bottom: 1em;
 right: 0;
 margin-right: 10px;
 }
