@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-  margin-top: 130px;
+  margin-top: 170px;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -90,7 +90,7 @@ body{
 }
 
 
-.link a{
+/* .link a{
   text-decoration: none;
   color: #f6f4f2;
   border: 1px solid #f6f4f2;
@@ -98,7 +98,7 @@ body{
   padding: 10px;
   border-radius: 2px;
   opacity: 1;
-}
+} */
 
 @media (max-width: 600px){
   .container {
