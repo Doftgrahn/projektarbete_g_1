@@ -38,37 +38,16 @@
   font-size: 100%;
 }
 
-ul {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-
+.meny_cata{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
-@media (max-width:600px){
-  ul li {
 
-    position: relative;
-
-    left: 19%;
-    float: left;
-    width: 25%;
-    font-size: 20px;
-     /* text-align: center */
-    background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
-  }
-
-
-ul li {
-
-  position: relative;
-
-  left: 19%;
-  float: left;
-  width: 19%;
-  font-size: 20px;
-   /* text-align: center */
-  background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+.meny_cata > div{
+  flex-grow: 1;
 }
+
 
 .logg_in {
   font-size: 90%;
