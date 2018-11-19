@@ -116,7 +116,7 @@ width: auto;
 
 .map {
 position: absolute;
-bottom: 0;
+bottom: 1em;
 right: 0;
 margin-right: 10px;
 }
