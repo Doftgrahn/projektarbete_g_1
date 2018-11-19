@@ -9,11 +9,11 @@ färgpalett:
 body{
     position: relative;
     padding: 0;
-  
+
     margin-top: 116px;
     background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
     font-family: 'Roboto Condensed', sans-serif;
-    height: 1200px;
+    
 }
 
 .container{
