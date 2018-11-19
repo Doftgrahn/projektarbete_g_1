@@ -44,16 +44,29 @@ ul {
   list-style: none;
 
 }
+@media (max-width:600px){
+  ul li {
+
+    position: relative;
+
+    left: 19%;
+    float: left;
+    width: 25%;
+    font-size: 20px;
+     /* text-align: center */
+    background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
+  }
+
 
 ul li {
 
   position: relative;
-  top:10;
-  left: 23%;
+
+  left: 19%;
   float: left;
   width: 19%;
-  font-size: 2em;
-   text-align: center
+  font-size: 20px;
+   /* text-align: center */
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 
