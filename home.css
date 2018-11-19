@@ -66,8 +66,7 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
-  color: #cbbcab;
-  font-size: 1em;
+   font-size: 1em; 
   display: inline-block;
   transition: 0.4s;
 }
@@ -75,10 +74,9 @@ a {
 /* Slut på header */
 /*--Bild med text--*/
 .logo-container {
-  /* position: relative; */
   text-align: center;
   background-image: url("pictures/tomoko-uji-630443-unsplash.jpg");
-  width: 100%;
+  /* width: 100%; */
   min-height: 666px;
   margin: 0 auto;
   margin-top: 133px;
@@ -87,8 +85,9 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+  letter-spacing: 15px;
   color: #cbbcab;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 #1a1919, 0 1px #1a1919, 1px 0 #1a1919, 0 -1px #1a1919;
 }
 
 .logo-home {
