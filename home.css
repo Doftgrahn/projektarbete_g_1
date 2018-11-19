@@ -17,7 +17,6 @@ font-family: 'Covered By Your Grace', cursive;
 
 font-family: 'Montserrat', sans-serif;
 */
-/*Hej*/
 * {
   box-sizing: border-box;
 }
@@ -244,15 +243,26 @@ q:before, q:after {
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
   text-align: left;
   color: #f6f4f2;
-  /* font-size: 1.2rem; */
   padding: 10px;
 }
 
 @media (min-width:600px) {
-  .textall>* {
+  .textall {
     padding: 20px;
-    text-align:center;
+    text-align: center;
   }
+}
+
+.textdiv {
+  width:40%;
+  display: inline-block;
+}
+@media (max-width:600px)  {
+ .textdiv {
+   width:100%;
+   margin:0 auto;
+   padding:10px;
+ }
 }
 
 .textall h3 a:hover {
@@ -276,52 +286,13 @@ q:before, q:after {
 
 .promo_pic {
   float: left;
-  width:10%;
-  height:10%
+  width: 10%;
+  height: 10%
 }
+
 @media (max-width:600px) {
-  .promo_pic {
-
-
-  }
+  .promo_pic {}
 }
-
-/*---- Kontakt formulär ----*/
-
-
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #1a1919;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.mail-container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-
-
 
 /* Början på vitt område */
 .headline_block {
@@ -409,77 +380,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/*-----Checkbox text ----*/
-input[type="checkbox"]+label {
-  color: #011e2e;
-}
 
-input:checked+label {
-  color: #011e2e;
-}
-
-input {
-  display: none;
-}
-
-/*-----Checkbox text-- slut ----*/
 @media (max-width:600px) {
   .text1 {
-    font-size: 1rem;
-  }
-}
-
-/*---------Footer starts here-------*/
-.container_footer {
-  position: relative;
-  width: 100%;
-  left: 0px;
-  bottom: 0px;
-  background-color: #011e2e;
-  color: #f6f4f2;
-  font-family: 'Montserrat', sans-serif;
-}
-
-@media (max-width:600px) {
-  .socal_text {
-    margin-left: 36px;
-    font-size: 100%
-  }
-}
-
-.socal_icon {
-  position: absolute;
-  bottom: 0px;
-}
-
-.open_time {
-  text-align: center;
-  padding: 40px;
-  width: auto;
-}
-
-@media (max-width:600px) {
-  .open_time {
-    font-size: .7em;
-    float: left;
-    margin: -15px;
-  }
-
-  .socal_icon {
-    bottom: 0;
-  }
-}
-
-.map {
-  bottom: 1em;
-  right: 0;
-  margin-right: 10px;
-  padding: 10px;
-}
-
-@media (max-width:600px) {
-  .map {
-    height: 140px;
-    width: 140px;
+    font-size: 0.5rem;
   }
 }
