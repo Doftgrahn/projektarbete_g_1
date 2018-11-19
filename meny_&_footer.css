@@ -1,0 +1,162 @@
+
+/* ---------------header börjar här ----------------- */
+
+.head {
+  width: 100%;
+  height: 134px;
+  position: fixed;
+  top: 0;
+  background-color: #1a1919;
+  opacity: 0.8;
+  left: 0;
+font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  /* animation: change 10s infinite; */
+}
+
+/* @keyframes change{
+  0%  { background-color:#1a1919}
+  25% { background-color:#be000e}
+  50% { background-color:#f6f4f2}
+  75% { background-color:#002b6c}
+  100%{ background-color:#011e2e}
+} */
+.logo {
+
+  /* width: auto; */
+  text-align: center;
+  color: #f6f4f2;
+  margin-top: -50px;
+
+  font-size: 300%;
+  height: 100px;
+
+}
+
+.hitta_hit {
+  margin-left: 1%;
+  height: 50px;
+  font-size:2vw%;
+}
+
+a {
+  color: white;
+}
+
+ul {
+   margin: 0px;
+  padding: 0px;
+  list-style: none;
+   /* margin-left: 35%; */
+}
+
+/* ul li {
+
+  position: relative;
+  left: 15%;
+  float: left;
+  height: 40px;
+   width: 22%;
+  /* line-height: 40px;
+  font-family: arial;
+  text-align: center
+
+} */
+
+.logg_in{
+    font-size: 90%;
+   position: absolute;
+  right: 2px;
+   top: 2px;
+   margin-right: 5%;
+}
+
+/* .logg_in_bar {
+  margin-top: -30px;
+  float: right;
+  /* margin-right: -10px;
+}*/
+
+/* .logga_in_img {
+  /* margin-top: -60px; */
+
+  /* margin-right: -15em;
+} */
+
+.logg_contanier>li {
+  margin-right: 2em;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: inline-grid;
+  background-color: black;
+} */
+/*----------- header ends here-----------*/
+
+
+
+
+
+
+/* html body{
+  height: 2000px;
+  position: relative;
+}
+
+. */
+
+
+/* ----------------Footer starts here------------------ */
+.container_footer {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  /* right: 0px; */
+  left: 0px;
+  bottom: 0px;
+  background-color: #011e2e;
+  color: #f6f4f2;
+  border-top: 1px solid black;
+  font-family: ‘Shadows Into Light’, cursive;
+}
+@media (max-width:600px){
+.socal_text {
+  margin-left: 36px;
+  font-size: 100%
+}
+}
+
+
+.socal_icon{
+  position: absolute;
+  bottom: 0px;
+  /* margin-left: 2em; */
+  /* width: 10%; */
+
+
+}
+
+
+.open_time {
+  text-align: center;
+  font-size: 100%;
+  margin-top:-0.4em;
+width: auto;
+/* margin-right: 2vw; */
+}
+
+.map {
+  /* float: right; */
+position: absolute;
+bottom: 1em;
+right: 0;
+  margin-right: 10px;
+}
+
+/*
