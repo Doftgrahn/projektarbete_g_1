@@ -59,10 +59,6 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
-<<<<<<< HEAD
-=======
-  /* color: #cbbcab; */
->>>>>>> ca01364ae69f7e8396e0aab13529f0f6585bbd68
   font-size: 1em;
   display: inline-block;
   transition: 0.4s;
@@ -84,13 +80,13 @@ a {
   padding: 50px;
   letter-spacing: 15px;
   color: #cbbcab;
-  text-shadow: -1px 0 #1a1919, 0 1px #1a1919, 1px 0 #1a1919, 0 -1px #1a1919;
+  text-shadow: -3px 0 #1a1919, 0 1px #1a1919, 1px 0 #1a1919, 0 -1px #1a1919;
 }
 
 .logo-home {
   display: inline-block;
   margin: 0;
-  margin-top: 140px;
+   margin-top: 140px;
   text-decoration: none;
   font-size: 10rem;
 }
@@ -111,7 +107,7 @@ a {
   cursor: pointer;
   color: #cbbcab;
   transition: .3s ease;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .logo-container button:hover {
@@ -124,24 +120,101 @@ a {
 
 @media (max-width:600px) {
   .logo-container {
-    object-fit: fill;
+    object-fit: contain;
   }
 }
 
 @media (max-width:600px) {
   .logo-home {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     padding: 10px;
-    /* height: 150px; */
-    /* margin-top: 2em; */
-    /* margin-bottom: 0; */
+
+
   }
 
   .logo-container p, .logo-container button {
     font-size: 1.5em;
   }
 }
+
+/*--log in  ----*/
+/*
+.bg-img {
+  background-image: url("img_nature.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
+
+
+/*
+.container-log {
+  position: relative;
+  bottom:500px;
+  right:200px;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 10px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #af4e31;
+  border: 1px solid black;
+  border-radius: 34px;
+  display: none;
+}
+
+@media (max-width:600px) {
+  .container-log {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f6f4f2;
+  border-radius: 30px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f6f4f2;
+  outline: none;
+  border-radius: 30px;
+}
+
+.btn {
+  background-color: #cbbcab;
+  color: #f6f4f2;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.login-page:hover .container-log {
+  display:inline-block;
+  position: absolute;
+  top:700px;
+  left:60px;
+  max-height:333px;
+  z-index: 2;
+
+}
+*/
 
 /* Citat */
 cite {
@@ -257,6 +330,10 @@ q:before, q:after {
   }
 }
 
+.textall h3 a {
+  color: #af4e31;
+}
+
 .textall h3 a:hover {
   /*background-color: #011e2e;*/
   text-decoration: none;
@@ -268,6 +345,7 @@ q:before, q:after {
 @media (min-width:600px) {
   .textall h3 a {
     font-size: 1rem;
+    color: #f6f4f2;
   }
 }
 
@@ -276,8 +354,8 @@ q:before, q:after {
   color: #af4e31;
 }
 
-@media (max-width:600px) {
-  .promo_pic {}
+.textall p a {
+  color: #af4e31;
 }
 
 /* Början på vitt område */
