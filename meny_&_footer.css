@@ -5,36 +5,27 @@
   position: fixed;
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-   background-color: #f6f4f2;
-
+  background-color: #f6f4f2;
   opacity: 0.8;
   left: 0;
   z-index: 1;
   /* animation: change 10s infinite; */
-  color:#011e2e;
+  color: #011e2e;
 }
-/*
- @keyframes change{
-=======
-
  /* @keyframes change{
->>>>>>> 7953a414f35cee33a0eb6647e6e3eb188a4cd79e
   0%  { background-color:#1a1919}
   25% { background-color:#be000e}
   50% { background-color:#f6f4f2}
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
-<<<<<<< HEAD
 }*/
-
 .logo {
   text-align: center;
-
   margin-top: -50px;
   font-size: 300%;
   font-family: 'Montserrat', sans-serif;
-margin-left: 10px;
- letter-spacing: 4px;
+  margin-left: 10px;
+  letter-spacing: 4px;
 }
 
 .hitta_hit {
@@ -62,7 +53,6 @@ margin-left: 10px;
   right: 10px;
   top: 30px;
   margin-right: 5%;
-
 }
 
 .logg_contanier>li {
@@ -70,40 +60,32 @@ margin-left: 10px;
   max-width: 100px;
   max-height: 100px;
 }
-a{
+
+a {
   color: #011e2e;
   text-decoration: none;
-
 }
 
 /*----------- header ends here-----------*/
-
-
-
-
-
-
-
-
-
 /* ----------------Footer starts here------------------ */
 .container_footer {
   position: relative;
+  padding: 10px;
   width: 100%;
   height: 200px;
   left: 0px;
-  background-color:  #f6f4f2;
+  background-color: #f6f4f2;
   color: #011e2e;
   border-top: 1px solid black;
   font-family: 'Roboto Condensed', sans-serif;
 }
-@media (max-width:600px){
+
+@media (max-width:600px) {
   .socal_text {
     margin-left: 36px;
     font-size: 100%
   }
 }
-
 
 .socal_icon {
   position: absolute;
