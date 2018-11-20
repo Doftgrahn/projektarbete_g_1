@@ -361,7 +361,6 @@ q:before, q:after {
 /* Början på vitt område */
 .headline_block {
   /* background:#f6f4f2; */
-  border: 3px solid black;
   color: #011e2e;
   text-align: center;
   padding: 30px;
