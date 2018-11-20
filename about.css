@@ -11,9 +11,9 @@
 html, body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  z-index: -1;
+  /* z-index: -1; */
   height: 100vh;
-  position: static;
+  /* position: static; */
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 
@@ -70,7 +70,7 @@ button:hover {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  z-index: 1;
+  /* z-index: 1; */
   text-align: center;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -88,7 +88,7 @@ button:hover {
   text-align: center;
   object-fit: cover;
   border-radius: 25%;
-  z-index: 1;
+  /* z-index: 1; */
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
