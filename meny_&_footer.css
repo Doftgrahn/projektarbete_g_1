@@ -11,6 +11,7 @@
   z-index: 1;
   /* animation: change 10s infinite; */
   color: #011e2e;
+  transition: .4s sease;
 }
  /* @keyframes change{
   0%  { background-color:#1a1919}
@@ -42,7 +43,12 @@
   margin-top: 20px;
 }
 
-.meny_cata>div {
+
+header a:hover{
+  color: #af4e31;
+}
+
+.meny_cata > div {
   flex-grow: 1;
   font-size: 20px;
 }
@@ -67,6 +73,14 @@ a {
 }
 
 /*----------- header ends here-----------*/
+
+
+
+
+
+
+
+
 /* ----------------Footer starts here------------------ */
 .container_footer {
   position: relative;
