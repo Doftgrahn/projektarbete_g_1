@@ -9,7 +9,7 @@
 #af4e31  <-- istället för röd.
 */
 html, body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Roboto Condensed;
   margin: 0;
   /* z-index: -1; */
   height: 100vh;
@@ -17,19 +17,22 @@ html, body {
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
 }
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 .formula {
-  top: 2.5%
+  top: 2.5%;
   display: block;
-  background-color: #011e2e;
+  background-color: #af4e31;
   position: relative;
-  border-radius: 5px;
-  padding: 20px;
-  margin-top: 0 ;
+  border-radius: 10px;
+  margin-top: 0;
   text-align: center;
+  padding: 50px
 }
-.formula > div {
+
+.formula>div {
   display: inline-block;
   min-width: 600px;
 }
@@ -42,26 +45,28 @@ input[type=text], select, textarea {
   border-radius: 4px;
   box-sizing: border-box;
   resize: vertical;
+  background-color: #f6f4f2;
+  border-radius: 10px;
 }
 
 button {
+  font-size: 18px;
   display: block;
   position: relative;
-  left: 0px;
-  background-color: #4CAF50;
+  width: 400px;
+  left: 17%;
+  background-color: #011e2e;
   padding-top: 1%;
-  color: white;
+  color: #f6f4f2;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
   margin-top: 5px;
-
 }
 
 button:hover {
   opacity: .9;
-
 }
 
 .grid_columns {
@@ -90,14 +95,14 @@ button:hover {
   height: 255px;
   text-align: center;
   object-fit: ;
-  border-radius: 25%;
+  border-radius: 25px;
   /* z-index: 1; */
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
 }
 
-.grid_columns > div:hover .bild {
+.grid_columns>div:hover .bild {
   opacity: .2;
 }
 
