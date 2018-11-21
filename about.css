@@ -20,12 +20,13 @@ html, body {
 * {box-sizing: border-box;}
 
 .formula {
+  top: 2.5%
   display: block;
   background-color: #011e2e;
   position: relative;
   border-radius: 5px;
   padding: 20px;
-  margin-top: 100px;
+  margin-top: 0 ;
   text-align: center;
 }
 .formula > div {
@@ -75,6 +76,7 @@ button:hover {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   max-width: 800px;
+  max-height: 685px;
 }
 
 .grid_columns>div {
@@ -83,10 +85,10 @@ button:hover {
 }
 
 .bild {
-  width: 65%;
-  height: 65%;
+  width: 200px;
+  height: 255px;
   text-align: center;
-  object-fit: cover;
+  object-fit: ;
   border-radius: 25%;
   /* z-index: 1; */
   opacity: 1;
