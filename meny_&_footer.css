@@ -9,17 +9,17 @@
   opacity: 0.8;
   left: 0;
   z-index: 1;
-  /* animation: change 10s infinite; */
+   animation: change 10s infinite;
   color: #011e2e;
-  transition: .4s sease;
+  /* transition: .4s sease; */
 }
- /* @keyframes change{
+  /* @keyframes change{
   0%  { background-color:#1a1919}
   25% { background-color:#be000e}
   50% { background-color:#f6f4f2}
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
-}*/
+} */
 .logo {
   text-align: center;
   margin-top: -50px;
