@@ -75,6 +75,7 @@ button:hover {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
   max-width: 800px;
+  max-height: 650px;
 }
 
 .grid_columns>div {
