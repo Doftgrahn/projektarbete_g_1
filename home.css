@@ -8,14 +8,10 @@ färgpalett:
 //Ny textfärg - på blå bakgrund
 #cbbcab  <-- både p & h1 - h6
 #af4e31  <-- istället för röd [Länkar]
-/*--
-<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
-font-family: 'Covered By Your Grace', cursive;
---*/
-/*
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-font-family: 'Montserrat', sans-serif;
+
+https://drive.google.com/drive/folders/1gkIMxfNHBKRPQe9XE2jHIirSQGCT-U86?usp=sharing
+
 */
 * {
   box-sizing: border-box;
@@ -55,7 +51,7 @@ h3 {
   color: #cbbcab;
 }
 
-p {
+p, ul {
   /* position: relative; */
   margin: 0px bottom: 15px;
   font-size: 1.3rem;
@@ -66,7 +62,6 @@ p {
 a {
   text-decoration: none;
   transition: 0.4s;
-  color: #cbbcab;
   font-size: 1em;
   display: inline-block;
   transition: 0.4s;
@@ -75,7 +70,6 @@ a {
 /* Slut på header */
 /*--Bild med text--*/
 .logo-container {
-  /* position: relative; */
   text-align: center;
   background-image: url("pictures/tomoko-uji-630443-unsplash.jpg");
   width: 100%;
@@ -87,8 +81,9 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
+  letter-spacing: 15px;
   color: #cbbcab;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -3px 0 #1a1919, 0 1px #1a1919, 1px 0 #1a1919, 0 -1px #1a1919;
 }
 
 .logo-home {
@@ -115,7 +110,7 @@ a {
   cursor: pointer;
   color: #cbbcab;
   transition: .3s ease;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .logo-container button:hover {
@@ -128,18 +123,15 @@ a {
 
 @media (max-width:600px) {
   .logo-container {
-    object-fit: fill;
+    object-fit: contain;
   }
 }
 
 @media (max-width:600px) {
   .logo-home {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     padding: 10px;
-    /* height: 150px; */
-    /* margin-top: 2em; */
-    /* margin-bottom: 0; */
   }
 
   .logo-container p, .logo-container button {
@@ -147,6 +139,81 @@ a {
   }
 }
 
+/*--log in  ----*/
+/*
+.bg-img {
+  background-image: url("img_nature.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+*/
+/*
+.container-log {
+  position: relative;
+  bottom:500px;
+  right:200px;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 10px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #af4e31;
+  border: 1px solid black;
+  border-radius: 34px;
+  display: none;
+}
+
+@media (max-width:600px) {
+  .container-log {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f6f4f2;
+  border-radius: 30px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f6f4f2;
+  outline: none;
+  border-radius: 30px;
+}
+
+.btn {
+  background-color: #cbbcab;
+  color: #f6f4f2;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.login-page:hover .container-log {
+  display:inline-block;
+  position: absolute;
+  top:700px;
+  left:60px;
+  max-height:333px;
+  z-index: 2;
+
+}
+*/
 /* Citat */
 cite {
   display: block;
@@ -211,11 +278,6 @@ q:before, q:after {
   opacity: 0.8;
 }
 
-.flex1 {
-  /*height: 300px;*/
-  /*object-fit: cover;*/
-}
-
 .flex2,
 .flex3 {
   width: 100%;
@@ -238,6 +300,40 @@ q:before, q:after {
 }
 
 /*Slut på flex, början på  kända personer som använder */
+.flextext {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flextext2 {
+  flex: 1;
+  width: 50%;
+}
+
+.listdiv>* {
+  width: 50%;
+  flex: 1;
+  background-color: #cbbcab;
+  color: #1a1919;
+}
+
+.listdiv, ul {
+  list-style-type: none;
+  text decoration: none;
+  margin: 50px;
+  padding: 20px;
+  color: #f6f4f2;
+  text-align: left;
+  border-radius: 40px;
+  border: 1px solid #cbbcab;
+}
+
+@media(max-width:600px) {
+  .flexalltext {
+    width: 100;
+  }
+}
+
 .textall {
   margin: 0 auto;
   background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
@@ -254,15 +350,20 @@ q:before, q:after {
 }
 
 .textdiv {
-  width:40%;
+  width: 40%;
   display: inline-block;
 }
-@media (max-width:600px)  {
- .textdiv {
-   width:100%;
-   margin:0 auto;
-   padding:10px;
- }
+
+@media (max-width:600px) {
+  .textdiv {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+.textall h3 a {
+  color: #af4e31;
 }
 
 .textall h3 a:hover {
@@ -276,6 +377,7 @@ q:before, q:after {
 @media (min-width:600px) {
   .textall h3 a {
     font-size: 1rem;
+    color: #f6f4f2;
   }
 }
 
@@ -284,14 +386,8 @@ q:before, q:after {
   color: #af4e31;
 }
 
-.promo_pic {
-  float: left;
-  width: 10%;
-  height: 10%
-}
-
-@media (max-width:600px) {
-  .promo_pic {}
+.textall p a {
+  color: #af4e31;
 }
 
 /* Början på vitt område */
@@ -299,8 +395,8 @@ q:before, q:after {
   /* background:#f6f4f2; */
   color: #011e2e;
   text-align: center;
-  padding: 50px;
-  animation: changeBackground 20s ease infinite;
+  padding: 30px;
+  animation: changeBackground 5s ease infinite;
 }
 
 @keyframes changeBackground {
@@ -350,6 +446,7 @@ q:before, q:after {
 .gridall img {
   width: 100%;
   object-fit: contain;
+  border-radius: 50px;
 }
 
 .overlay {
@@ -362,7 +459,7 @@ q:before, q:after {
   width: 100%;
   height: 100%;
   transform: scale(0);
-  transition: .4s ease;
+  transition: .5s ease;
 }
 
 .gridall:hover .overlay {
@@ -379,7 +476,6 @@ q:before, q:after {
   transform: translate(-50%, -50%);
   padding: 20px;
 }
-
 
 @media (max-width:600px) {
   .text1 {

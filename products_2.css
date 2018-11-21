@@ -80,7 +80,6 @@ details[open] summary:after {
 
 .sami-images{
     width: 100%;
-<<<<<<< HEAD
     /* opacity: 0.5; */
     /* filter: alpha(opacity=50); */
 }
@@ -98,6 +97,3 @@ details[open] summary:after {
     .sami-grid-items { order: 1; }
 
   }
-=======
-}
->>>>>>> 5f1fbc9b0c9fd564773fd9a4a77c9a9f32ab77a1

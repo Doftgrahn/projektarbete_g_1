@@ -5,29 +5,28 @@
   position: fixed;
   top: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #1a1919;
-  /* background-image: linear-gradient(to bottom right, #1a1919, #011e2e); */
+  background-color: #f6f4f2;
   opacity: 0.8;
   left: 0;
   z-index: 1;
-   animation: change 10s infinite;
+  /* animation: change 10s infinite; */
+  color: #011e2e;
+  transition: .4s sease;
 }
-
- @keyframes change{
+ /* @keyframes change{
   0%  { background-color:#1a1919}
   25% { background-color:#be000e}
   50% { background-color:#f6f4f2}
   75% { background-color:#002b6c}
   100%{ background-color:#011e2e}
-}
+}*/
 .logo {
   text-align: center;
-  color: #cbbcab;
   margin-top: -50px;
   font-size: 300%;
   font-family: 'Montserrat', sans-serif;
-margin-left: 10px;
- letter-spacing: 4px;
+  margin-left: 10px;
+  letter-spacing: 4px;
 }
 
 .hitta_hit {
@@ -44,7 +43,12 @@ margin-left: 10px;
   margin-top: 20px;
 }
 
-.meny_cata>div {
+
+header a:hover{
+  color: #af4e31;
+}
+
+.meny_cata > div {
   flex-grow: 1;
   font-size: 20px;
 }
@@ -55,7 +59,6 @@ margin-left: 10px;
   right: 10px;
   top: 30px;
   margin-right: 5%;
-  color: #cbbcab;
 }
 
 .logg_contanier>li {
@@ -65,9 +68,8 @@ margin-left: 10px;
 }
 
 a {
-  color: #cbbcab;
+  color: #011e2e;
   text-decoration: none;
-
 }
 
 /*----------- header ends here-----------*/
@@ -79,31 +81,25 @@ a {
 
 
 
-
 /* ----------------Footer starts here------------------ */
 .container_footer {
-
-position: relative;
-width: 100%;
-height: 200px;
-left: 0px;
-<<<<<<< HEAD
-background-color: #011e2e;
-=======
-bottom: 0px;
-background-image: linear-gradient(to bottom right, #1a1919, #011e2e);
->>>>>>> a5170003481e26289b525ce09b76385edc50d1e2
-color: #f6f4f2;
-border-top: 1px solid black;
-font-family: 'Roboto Condensed', sans-serif;
-}
-@media (max-width:600px){
-.socal_text {
-  margin-left: 36px;
-  font-size: 100%
-}
+  position: relative;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  left: 0px;
+  background-color: #f6f4f2;
+  color: #011e2e;
+  border-top: 1px solid black;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
+@media (max-width:600px) {
+  .socal_text {
+    margin-left: 36px;
+    font-size: 100%
+  }
+}
 
 .socal_icon {
   position: absolute;
@@ -121,5 +117,15 @@ font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   bottom: 1em;
   right: 0;
-  margin-right: 10px;
+  margin-right: 30px;
+  width: 200px;
+  height: 180px;
+}
+
+@media (max-width:600px) {
+  .map{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+  }
 }
