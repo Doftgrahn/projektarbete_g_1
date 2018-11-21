@@ -9,6 +9,9 @@ färgpalett:
 #cbbcab  <-- både p & h1 - h6
 #af4e31  <-- istället för röd [Länkar]
 
+
+https://drive.google.com/drive/folders/1gkIMxfNHBKRPQe9XE2jHIirSQGCT-U86?usp=sharing
+
 */
 * {
   box-sizing: border-box;
@@ -300,25 +303,21 @@ q:before, q:after {
 .flextext {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .flextext2 {
   flex: 1;
-  width:50%;
-
+  width: 50%;
 }
 
-.listdiv >*{
-  width:50%;
+.listdiv>* {
+  width: 50%;
   flex: 1;
   background-color: #cbbcab;
   color: #1a1919;
-
-
 }
 
-.listdiv, ul{
+.listdiv, ul {
   list-style-type: none;
   text decoration: none;
   margin: 50px;
@@ -326,11 +325,8 @@ q:before, q:after {
   color: #f6f4f2;
   text-align: left;
   border-radius: 40px;
-  border:1px solid #cbbcab;
+  border: 1px solid #cbbcab;
 }
-
-
-
 
 @media(max-width:600px) {
   .flexalltext {
@@ -363,7 +359,6 @@ q:before, q:after {
     width: 100%;
     margin: 0 auto;
     padding: 10px;
-
   }
 }
 
@@ -452,7 +447,6 @@ q:before, q:after {
   width: 100%;
   object-fit: contain;
   border-radius: 50px;
-
 }
 
 .overlay {
