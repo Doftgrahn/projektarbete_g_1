@@ -12,6 +12,8 @@
   opacity: 0.8;
   left: 0;
   z-index: 1;
+  transition: .5s sease;
+
   /* animation: change 10s infinite; */
 }
 
@@ -23,6 +25,10 @@
   100%{ background-color:#011e2e}
 } */
 
+
+.head < a:hover{
+  color: #af4e31;
+}
 .logo {
 
   text-align: center;
@@ -65,7 +71,7 @@
   max-height: 100px;
 }
 a{
-  color: #cbbcab;
+  color: green;
   text-decoration: none;
 }
 
